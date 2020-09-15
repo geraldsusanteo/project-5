@@ -1,0 +1,36 @@
+body {
+  margin-top: 40px;
+}
+.searchbar {
+  display: block;
+  width: 35%;
+  padding: 10px;
+  margin: 0 auto;
+  font-size: 15px;
+}
+
+.first-row,
+.second-row,
+.third-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.pic-1,
+ .pic-2,
+ .pic-3,
+ .pic-4,
+ .pic-5,
+ .pic-6,
+ .pic-7,
+ .pic-8,
+ .pic-9,
+ .pic-10,
+ .pic-11,
+ .pic-12 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
