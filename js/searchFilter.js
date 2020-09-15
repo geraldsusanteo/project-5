@@ -1,20 +1,15 @@
 
-function myFunction() {
-  // Declare variables
-  var input, filter, div, li, a, i, txtValue;
-  input = document.getElementById('myInput');
-  filter = input.value.toUpperCase();
-  div = document.getElementByclass("first-row");
-  a = div.getElementsByTagName('data-caption');
+function searchBar()
 
-  // Loop through all list items, and hide those who don't match the search query
-  for (i = 0; i < a.length; i++) {
-    b = li[i].getElementsByTagName("b")[0];
-    txtValue = b.textContent || b.innerText;
-    if (txtValue.toUpperCase().indexOf(filter) > -1) {
-      a[i].style.display = "";
-    } else {
-      a[i].style.display = "none";
-    }
-  }
+const list = document.getElementsById('list')
+
+function setList() {
+
 }
+
+const searchInput = document.getElementById('search');
+
+searchInput.addEventListener('input', (event) =>)
+  const value = event.target.value;
+
+// 3:08
