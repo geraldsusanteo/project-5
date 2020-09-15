@@ -4,7 +4,7 @@ function myFunction() {
   var input, filter, div, li, a, i, txtValue;
   input = document.getElementById('myInput');
   filter = input.value.toUpperCase();
-  div = document.getElementByclass("div");
+  div = document.getElementByclass("first-row");
   a = div.getElementsByTagName('data-caption');
 
   // Loop through all list items, and hide those who don't match the search query
