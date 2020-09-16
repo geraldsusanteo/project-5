@@ -2,7 +2,7 @@ body {
   margin-top: 40px;
 }
 .searchbar {
-  display: block;
+  display: grid;
   width: 35%;
   padding: 10px;
   margin: 0 auto;
@@ -11,7 +11,10 @@ body {
 
 .gallery {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+   max-width: 900px;
+   grid-template-columns: auto auto auto auto;
+   grid-template-rows: auto auto auto;
+   margin: 0 auto;
 }
 .first-row,
 .second-row,
