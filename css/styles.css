@@ -9,12 +9,14 @@ body {
   font-size: 15px;
 }
 
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
 .first-row,
 .second-row,
 .third-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+
 
 }
 
